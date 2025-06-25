@@ -23,11 +23,12 @@ public class P10_Challenge03 {
                System.out.println("Invalid Value");
           } else {
                System.out.print(kiloBytes + " KB = ");
-               int megabytes = kiloBytes/1000;
-               kiloBytes -= (megabytes*1000);
+               int megabytes = kiloBytes / 1024;
+               kiloBytes -= (megabytes * 1024);
                System.out.println(megabytes + " MB and " + kiloBytes + " KB");
           }
      }
+
      public static void main(String[] args) {
           Scanner sc = new Scanner(System.in);
           System.out.print("Please enter the total in KB: ");
