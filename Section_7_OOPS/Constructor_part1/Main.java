@@ -1,4 +1,4 @@
-package Constructor_part1;
+package Section_7_OOPS.Constructor_part1;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,6 +12,7 @@ public class Main {
         System.out.println("make =" + car.getMake());
         System.out.println("model =" + car.getModel());
         car.describeCar();
+
         Car targa = new Car();
         targa.setMake("Porsche");
         targa.setModel("Targa");
