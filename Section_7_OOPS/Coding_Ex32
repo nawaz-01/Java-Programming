@@ -73,6 +73,10 @@ public class Wall {
     }
 }
 
+//Example Usage:
+
+// Create a Wall object with width 5 and height 4
+// Print the area of the wall   
 public class Coding_Ex32 {
     public static void main(String[] args) {
         Wall wall = new Wall(5, 4);
@@ -85,3 +89,6 @@ public class Coding_Ex32 {
 
     }
 }
+
+// Output:
+// area is : 20.0   
