@@ -102,7 +102,7 @@ public class Calculator {
 // This class demonstrates the functionality of the Floor, Carpet, and Calculator classes.
 
 
-public class CodingEx34 {
+public class Coding_Ex34 {
     public static void main(String[] args){
         Floor floor = new Floor(3.55, 5.0);
         Carpet carpet = new Carpet(2.5);
