@@ -1,10 +1,14 @@
-package InheritanceChallenge_P1;
+package InheritanceChallenge_P2;
 
 public class Worker {
 
     private String name;
     private String birthDate;
     protected String endDate;
+
+    public Worker() {
+
+    }
 
     public Worker(String name, String birthDate) {
         this.name = name;
@@ -17,7 +21,6 @@ public class Worker {
         int birthYear = Integer.parseInt(birthDate.substring(6));
 
         return (currentYear - birthYear);
-
     }
 
     public double collectPay() {
@@ -30,10 +33,8 @@ public class Worker {
 
     @Override
     public String toString() {
-        return "Worker{" +
-                "name='" + name + '\'' +
-                ", birthDate='" + birthDate + '\'' +
-                ", endDate='" + endDate + '\'' +
-                '}';
+        return "Worker{" + "name='" + name + '\'' + ", birthDate='" + birthDate + '\'' + ", endDate='" + endDate + '\''
+                + '}';
     }
+
 }

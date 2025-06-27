@@ -1,4 +1,4 @@
-package InheritanceChallenge;
+package InheritanceChallenge_P1;
 
 public class Employee extends Worker {
 
