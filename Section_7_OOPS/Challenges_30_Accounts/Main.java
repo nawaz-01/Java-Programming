@@ -1,4 +1,4 @@
-package Section_7_OOPS.Challenges_30_Accounts;
+package Challenges_30_Accounts;
 
 public class Main {
     public static void main(String[] args) {

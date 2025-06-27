@@ -1,4 +1,4 @@
-package Section_7_OOPS.Constructor_part1;
+package Constructor_part1;
 
 public class Main {
     public static void main(String[] args) {
